@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>HTML 5 Boilerplate</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="register.html">
+            <input type="text" name="name" placeholder="Full Name" autofocus/><br/>
+            <input type="email" name="email" placeholder="Email" required/><br/>
+            <label>Experience:</label>
+            <input list="Experience"/>
+            <datalist id="Experience">
+                <option value="0 years"></option>
+                <option value="0-1 years"></option>
+                <option value="1-5 years"></option>
+                <option value="Above 5 years"></option>
+            </datalist><br/>
+            <label>Technologies you know.</label><br/>
+            <input type="checkbox" name="HTML">HTML<br/>
+            <input type="checkbox" name="CSS">CSS<br/>
+            <input type="checkbox" name="javascript">Javascript<br/>
+            <input type="checkbox" name="nodejs">NodeJs<br/>
+            <input type="checkbox" name="java">Java<br/>
+            <input type="checkbox" name="python">Python<br/>
+            <input type="checkbox" name="mongodb">MongoDb<br/> 
+            <label>Prefered Location:</label>
+            <input list="Location"/>
+            <datalist id="Location">
+                <option value="Pune"></option>
+                <option value="Mumbai"></option>
+                <option value="Bangalore"></option>
+                <option value="Hyderabad"></option>
+            </datalist><br/>
+            <label>Upload Resume here:</label>
+            <input id="file" type="file" name="employee_resume" placeholder="Resume"/><br/>
+            <label>Availability</label>
+            <input list="Availability"/>
+            <datalist id="Availability">
+                <option value="Available"></option>
+                <option value="Not available"></option>
+            </datalist><br/>
+            <label>Upload photo here:</label>
+            <input id="file" type="file" name="employee_photo" placeholder="Photo"/><br/>
+            <input id="submit" type="submit" value="Add Employee"/>
+        </form>
+    </body>
+</html>
+
+        

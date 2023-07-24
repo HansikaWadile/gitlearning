@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+form{
+    border: 5px solid rgb(60, 35, 118);
+    padding: 10px;
+    display: inline-block;
+    align-content: center;
+    background-color: rgb(186, 218, 136);
+}
+input{
+    padding: 5px;
+    margin: 10px;
+}
+label{
+    margin: 5px;
+    display: block;
+}
+#submit{
+    padding: 5px;
+    height: 35px;
+    width: 100px;
+}
+#file{
+    margin-left: 100px;
+}
